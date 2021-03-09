@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  /* max-height: 600px; */
+  margin: auto;
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-container > section {
+  flex: 1;
+}
+
+/* Main */
+main {
+  padding: 2.5rem;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+main h2 {
+  color: hsl(71, 73%, 54%);
+}
+main p {
+  color: hsl(0, 0%, 87%);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Section 01  */
+.section-1 {
+  padding: 2.5rem;
+  min-width: 320px;
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+}
+
+.bolder {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.faded {
+  color: hsl(179, 62%, 52%);
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  font-size: 18;
+  font-weight: 700;
+  font-family: "Karla", sans-serif;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px 0;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+/* Section 02 */
+.section-2 {
+  padding: 2.5rem;
+  min-width: 320px;
+  background-color: hsl(179, 47%, 52%);
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  opacity: 0.7;
+}
+
+ul li {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* Media query */
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+} ;
